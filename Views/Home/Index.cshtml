@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ViewData["Title"]</title>
+</head>
+<body>
+
+    <h2>Welcome to Royal Hotel</h2>
+    <h3>Dear Guest, Please Book Now. Before Booking Please see the rooms Below</h3>
+
+    <div class="MyDiv">
+        <img src="/images/hotel.jpg" alt="jane" width="1000px" />
+    </div>
+
+    <div class="card">
+        <img src="/images/room1.jpg" alt="jane" />
+        <div class="container">
+            <h2>Deluce Rooms</h2>
+            <a asp-controller="Bookings" asp-action="Create">
+                <input type="button" class="btn btn-primary" value="Book Now" />
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="/images/room2.jpg" alt="jane" />
+        <div class="container">
+            <h2>Double Rooms</h2>
+            <a asp-controller="Bookings" asp-action="Create">
+                <input type="button" class="btn btn-primary" value="Book Now" />
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="/images/room3.jpg" alt="jane" />
+        <div class="container">
+            <h2>Single Room</h2>
+            <a asp-controller="Bookings" asp-action="Create">
+                <input type="button" class="btn btn-primary" value="Book Now" />
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="/images/room4.jpg" alt="jane" />
+        <div class="container">
+            <h2>Triple Rooms</h2>
+            <a asp-controller="Bookings" asp-action="Create">
+                <input type="button" class="btn btn-primary" value="Book Now" />
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="/images/room4.jpg" alt="jane" />
+        <div class="container">
+            <h2>Standard Rooms</h2>
+            <a asp-controller="Bookings" asp-action="Create">
+                <input type="button" class="btn btn-primary" value="Book Now" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>
